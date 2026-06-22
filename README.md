@@ -2,7 +2,7 @@
 
 <img src="docs/banner.png" alt="VulpiX" width="680">
 
-# VulpiX
+# 🦊 VulpiX
 
 **Modular Unity framework for clean, optimized, leak-free mobile games.**
 *Pull only the packages you need.*
