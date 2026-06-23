@@ -37,21 +37,40 @@ distills years of mobile optimization work — the same approach that brought a 
 - ⚡ **~50% faster project setup** — start a new game on solid foundations instead of wiring boilerplate.
 - 🚢 **Battle-tested** — born from shipped mobile titles, not a toy project.
 
+> 🧰 **Built with** [DOTween](http://dotween.demigiant.com/) for tweened animations and
+> [Odin Inspector](https://odininspector.com/) for editor tooling and custom inspectors.
+
 ## Modules
 
-> Status legend: 🆓 **Free** (open source, separate repo) · 💎 **Pro** (Asset Store package) · 🛠️ rolling out
+> Status legend: 🆓 **Free** (open source, separate UPM repo) · 💎 **Pro** (Asset Store package) · 🛠️ **rolling out** (coming soon)
 
 | Area | Module | Status |
 |------|--------|--------|
-| Core | Events / messaging | 🆓 *planned* |
-| Core | Object pooling | 🆓 *planned* |
-| Loading | Scene flow & async loading | 💎 |
-| Loading | Leak-safe Addressables | 💎 |
-| Gameplay | Animation system | 💎 |
-| Tooling | Runtime debug suite | 💎 |
-| Progression | Typed stats & achievements | 💎 |
+| Core | Hierarchical singleton (static / protected / persistent) | 🆓 |
+| Core | Core utils & extensions | 🆓 |
+| Core | JSON utilities | 🆓 |
+| Core | Events / messaging | 💎 |
+| Memory | Object pooling | 🆓 |
+| Memory | Leak-safe Addressables | 💎 |
+| Loading | Scene flow, transitions & async loading | 💎 |
+| Gameplay | Character animation system | 💎 |
+| Gameplay | Time / slow-motion (DOTween) | 💎 |
+| Gameplay | Typed stats & achievements | 💎 |
+| Input | Touch input & multi-finger map navigation | 💎 |
+| UI | Animable UI panels & button system | 💎 |
 | Localization | 11-language localization | 💎 |
-| Platform | Auth · Cloud save · IAP · Ads · Notifications | 💎 |
+| Platform services | Auth · Cloud save · IAP · Ads · Leaderboards · Notifications · Analytics | 💎 |
+| Tooling | Runtime debug suite | 💎 |
+| Tooling | Files & storage (local / cloud, versioned, zip) | 💎 |
+| Tooling | Application monitors (quality, FPS, battery, GC) | 💎 |
+| Procedural | Mesh & procedural generation | 🆓 |
+| Procedural | Object disposers | 🆓 |
+| Procedural | Movement helpers (player / camera) | 🆓 |
+| Rendering | Masking, sprite/texture & XML utils | 💎 |
+| Platform | Android | 💎 |
+| Platform | Apple / iOS | 💎 |
+| Platform | PC | 🛠️ |
+| Platform | Nintendo Switch | 🛠️ |
 
 *The free module set is being curated and rolled out — watch this repo and the
 [roadmap](https://github.com/GuruGamesDev/VulpiX-public/milestones).*
